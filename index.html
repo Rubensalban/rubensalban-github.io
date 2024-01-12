@@ -1,367 +1,1313 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--<< Title >>-->
+  <title>Ruben's Alban</title>
+  <!--<< Favcion >>-->
+  <link rel="shortcut icon" href="assets/img/logo/favicon.png" />
 
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-    <title>Ruben's Alban</title>
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" media="screen">
+  <script src="./assets/js/tailwindCongfig.js"></script>
+
+  <!-- -- magnific-popup -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!-- ------ aos animation -->
+  <link rel="stylesheet" href="assets/css/aos.css" />
+
+  <!-- --- -icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    crossorigin="anonymous" />
+
+  <!-- ---- main css -->
+  <link href="./assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="animsition">
-        <div class="loader">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-
-        <div class="click-capture"></div>
-
-        <div class="menu">
-            <span class="close-menu icon-cross2 right-boxed"></span>
-            <ul class="menu-list right-boxed">
-                <li data-menuanchor="page1">
-                    <a href="#page1">Accueil</a>
-                </li>
-                <li data-menuanchor="page2">
-                    <a href="#page2">Spécialisation</a>
-                </li>
-                <li data-menuanchor="page3">
-                    <a href="#page3">À propos</a>
-                </li>
-                <li data-menuanchor="page4">
-                    <a href="#page4">Réalisations</a>
-                </li>
-                <li data-menuanchor="page7">
-                    <a href="#page7">Contact</a>
-                </li>
-            </ul>
-            <div class="menu-footer right-boxed">
-                <div class="social-list">
-                    <a href="https://wa.me/+242044913233" class="icon ion-social-whatsapp"></a>
-                </div>
-                <div class="copy">© 2022.
-                </div>
-            </div>
-        </div>
-
-        <header class="navbar navbar-fullpage boxed">
-            <div class="navbar-bg"></div>
-            <a class="brand" href="#">
-                <img alt="" src="images/brand.png">
-                <div class="brand-info">
-                    <div class="brand-name">Ruben's Alban</div>
-                </div>
+  <div class="bg-banner_image bg-no-repeat bg-center bg-cover bg-fixed relative overflow-hidden">
+    <!-- header start -->
+    <header
+      class="header relative w-full border-b border-b-clr_cusborder z-10 xxl:after:block after:hidden after:absolute after:right-[calc(20%-30px)] after:top-0 after:w-[1px] after:h-full after:content:[''] after:bg-clr_cusborder xxl:before:block before:hidden before:absolute before:left-[calc(15%-40px)] before:top-0 before:w-[1px] before:h-full before:content:[''] before:bg-clr_cusborder">
+      <div class="xxl:max-w-[1805px] xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <div class="flex justify-between items-center w-full relative py-5">
+          <div class="main__logo">
+            <a href="index.html" class="block xl:w-[150px] w-[100px]">
+              <img src="./assets/img/logo/logo.png" alt="logo" class="w-full h-full object-contain" />
             </a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"
-                aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="contacts d-none d-md-block">
-                <div class="contact-item">
-                    <a  href="tel:+2420449132333"><span>+242 04 491 32333</span>
-                    </a>
-                </div>
-                <div class="contact-item spacer">
-                    /
-                </div>
-                <div class="contact-item">
-                    <a  href="mailto:rubensalban@gmail.com"><span>rubensalban@gmail.com</span></a>
-                </div>
+          </div>
+          <ul
+            class="menus flex lg:flex-row flex-col lg:items-center opacity-0 invisible lg:opacity-100 lg:visible lg:gap-[14px] gap-0 fixed z-50 lg:static top-20 left-0 w-full lg:w-auto bg-clr_subtitle min-h-screen lg:min-h-full lg:bg-transparent duration-500 origin-top px-3">
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+              <a href="./index.html"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                Accueil
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+              <a href="./index.html#about"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                À propos
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+              <a href="./index.html#projects"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                Projets
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+              <a href="./index.html#services"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                Services
+              </a>
+            </li>
+            <li
+              class="relative transition-all border-b-2 border-b-clr_cusborder lg:border-none last:border-none lg:py-0 py-4">
+              <a href="./index.html#contacts"
+                class="text-clr_white font-500 xxl:text-base text-sm uppercase lg:py-[10px] py-0 xxl:px-[16px] xl:px-[10px] px-1 hover:text-clr_base">
+                Contact
+              </a>
+            </li>
+          </ul>
+          <div class="flex items-center gap-4">
+            <a href="https://wa.me/242044913233"
+              class="flex items-center gap-2 xxl:px-[26px] xxl:py-[19px] lg:px-[16px] lg:py-[9px] px-[11px] py-[7px] font-medium text-lg capitalize relative bg-clr_base overflow-hidden rounded-[5px] transition-all text-clr_subtitle max-h-[58px] before:absolute before:content-[''] before:bottom-full before:bg-[#F4CF00] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0"
+              target="_blank" rel="noopener noreferrer">
+              <span class="text-sm xl:text-lg z-10 relative duration-500">
+                Parlons
+              </span>
+              <span>
+                <i class="bi bi-arrow-right text-xl z-10 relative duration-500"></i>
+              </span>
+            </a>
+            <div class="header-bar lg:hidden">
+              <i class="bi bi-x text-[32px] text-clr_white cursor-pointer hidden menuCloseIcon"></i>
+              <i class="bi bi-list text-[32px] text-clr_white cursor-pointer menuActiveIcon"></i>
             </div>
-        </header>
-        <div class="copy-bottom white boxed">© 2022.
+            <div
+              class="drawerActiveIcon xl:w-[58px] xl:h-[58px] w-[39px] h-[39px] rounded-md flex items-center justify-center bg-clr_white cursor-pointer">
+              <i class="bi bi-list lg:text-[32px] text-[22px] text-clr_title"></i>
+            </div>
+          </div>
+
         </div>
-        <div class="social-list social-list-bottom boxed">
-            <a href="https://wa.me/+242044913233" class="icon ion-social-whatsapp"></a>
+
+        <!-- --------- Tiroir (Drawer) -->
+        <div class="w-80 h-full fixed z-50 top-0 duration-500 overflow-y-scroll bg-black -right-80 drawer">
+          <div
+            class="flex justify-center items-center w-10 h-10 m-[10px] bg-clr_base ml-auto p-[5px] rounded-md hover:cursor-pointer drawerCloseIcon">
+            <i class="bi-x-lg text-[22px] text-clr_mtitle"> </i>
+          </div>
+          <div class="grid py-10 px-5">
+            <a href="" class="mb-5">
+              <img src="./assets/img/logo/logo.png" alt="img" />
+            </a>
+            <p class="text-sm mb-10 text-clr_pra break-words leading-normal">
+              Enthousiaste du développement, je suis Ruben's Alban, un professionnel spécialisé dans le développement
+              backend et mobile. Mon expertise s'étend à la création d'applications robustes et performantes, tant du
+              côté serveur que du côté client.
+              Mon objectif est de concrétiser des idées innovantes en solutions logicielles fonctionnelles et
+              évolutives. Fort de mon expérience dans la conception d'architectures backend fiables et la création
+              d'expériences utilisateur fluides sur mobile, je suis passionné par la recherche de solutions techniques
+              élégantes.
+              Que ce soit en élaborant des API puissantes, en optimisant des bases de données complexes ou en assurant
+              une expérience utilisateur exceptionnelle sur les plateformes mobiles, je m'efforce d'atteindre
+              l'excellence dans chaque ligne de code.
+              Parlons de votre prochain projet et explorons ensemble les possibilités infinies que la technologie peut
+              offrir.
+            </p>
+
+            <div class="grid gap-6 mb-10">
+              <div>
+                <div>
+                  <span class="block mb-2 uppercase text-clr_pra font-bold text-sm">
+                    Adresse
+                  </span>
+                  <span class=" capitalize text-white font-medium leading-[120%]">
+                    Centre ville, Pointe-Noire,
+                  </span>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span class="block mb-2 uppercase text-clr_pra font-bold text-sm">
+                    Email
+                  </span>
+                  <a href="mailto:rubensalban@gmail.com" class="text-white font-medium leading-[120%]">
+                    <span class="__cf_email__">rubensalban@gmail.com</span>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span class="block mb-2 uppercase text-clr_pra font-bold text-sm">
+                    Appelez maintenant
+                  </span>
+                  <a href="https://wa.me/242044913233" target="_blank"
+                    class=" capitalize text-white font-medium leading-[120%]">
+                    +242 04 491 3233
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="lg:mb-20 mb-14 relative">
+              <ul class="social flex gap-[14px]">
+                <li>
+                  <a href="https://linkedin.com/in/rubens-alban-mouko-942845131" target="_blank"
+                    class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center">
+                    <i class="bi-linkedin text-clr_title"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Rubensalban" target="_blank"
+                    class="w-[45px] h-[45px] rounded-full bg-clr_base border border-clr_base flex justify-center items-center">
+                    <i class="bi-github text-clr_title"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="https://wa.me/242044913233" target="_blank"
+              class="flex justify-center items-center gap-2 font-medium px-[30px] pt-5 pb-[21px] text-lg leading-[120%] capitalize relative bg-clr_base overflow-hidden rounded-[5px] duration-500 text-clr_subtitle before:absolute before:content-[''] before:bottom-full before:bg-[#F4CF00] before:left-0 before:w-full before:h-full before:duration-500 before:bg-opacity-80 hover:before:bottom-0">
+              <span class="z-10 relative duration-500">
+                <i class="bi-chevron-right"> </i>
+              </span>
+              <span class="z-10 relative duration-500"> Parlons </span>
+            </a>
+          </div>
         </div>
-        <div class="pagepiling">
-            <div data-anchor="page1" class="pp-scrollable text-white section section-1">
-                <div class="scroll-wrap">
-                    <div class="section-bg" style="background-image:url(images/bg/main.png);"></div>
-                    <div class="scrollable-content">
-                        <div class="vertical-centred">
-                            <div class="boxed boxed-inner">
-                                <div class="boxed">
-                                    <div class="container">
-                                        <div class="intro">
-                                            <div class="row">
-                                                <div class="col-md-8 col-lg-6">
-                                                    <h1 class="display-2 text-white  wow fadeIn" data-wow-delay="0.1s">
-                                                        <span class="text-primary">Salut,</span> Je suis Rubens Alban</h1>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- --------- Tiroir (Drawer) -->
+      </div>
+    </header>
+    <!-- header End -->
+
+    <!-- ------------------ Banner start -->
+    <section id="home">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <div class="grid md:grid-cols-[70%_auto] gap-5">
+          <div>
+            <div
+              class="banner__content xl:pt-[140px] xl:pb-[180px] lg:pt-[120px] lg:pb-[150px] md:pt-[90px] md:pb-[100px] sm:pt-[80px] sm:pb-[85px] py-[60px] xl:pl-10 pl-0">
+              <a href="#"
+                class="bn__currently md:text-[24px] text-base leading-[140%] md:mb-[50px] mb-6 border-b border-b-clr_white text-clr_white inline-block pb-4 hover:text-clr_base hover:border-b-clr_base capitalize">
+                <span class="block"> Disponible pour des missions freelance </span>
+                <span class="flex gap-4 items-center">
+                  à l'échelle mondiale
+                  <i class="">
+                    <i class="bi bi-arrow-up-right"></i>
+                  </i>
+                </span>
+              </a>
+              <h1
+                class="lg:text-[80px] md:text-[40px] sm:text-[25px] text-[14px] font-semibold sm:mb-[30px] mb-[10px] leading-[120%]">
+
+                <span class="block designers" data-text=" Développeur">
+                  Développeur
+                </span>
+                <span class="hone text-clr_white">Backend & Mobile</span>
+              </h1>
+
             </div>
-            <div data-anchor="page2" class="pp-scrollable section section-2">
-                <div class="scroll-wrap">
-                    <div class="scrollable-content">
-                        <div class="vertical-title text-white  d-none d-lg-block"><span>Services</span></div>
-                        <div class="vertical-centred">
-                            <div class="boxed boxed-inner">
-                                <div class="boxed">
-                                    <div class="container">
-                                        <div class="intro">
-                                            <h2 class="title mb-2 pb-2"> <span class="text-primary">Mes</span>
-                                                spécialisations</h2>
-                                            <div class="row-specialization row">
-                                                <div class="col-specialization col-md-6 col-lg-4">
-                                                    <span class="icon-specialization icon-laptop-phone"></span>
-                                                    <h4 class="text-uppercase">Développeur web, mobile</h4>
-                                                    <p>Je mets à votre disposition le fruit de mes expériences techniques, 
-                                                        et humaines. N'hésitez pas à me contacter directement
-                                                        pour me proposer les projets qui vous tiennent à cœur, 
-                                                        je me ferai une joie de comprendre et analyser vos besoins 
-                                                        et de vous proposer les solutions les plus adaptées.</p>
-                                                </div>
-                                                <div class="col-specialization col-md-6 col-lg-4">
-                                                    <span class="icon-specialization icon-laptop"></span>
-                                                    <h4 class="text-uppercase">Administrateur système Windows, Linux</h4>
-                                                    <p>Passionné de nouvelles technologies, je dispose d'un champs de compétence 
-                                                        étendu en administration de postes de travail et serveur, de la mise en place d'un
-                                                        réseau en passant par la sécurisation d'une infra.
-                                                        Je suis prêt à mettre à contribution mon expertise afin de réaliser au 
-                                                        mieux les missions que vous me confirez.</p>
-                                                </div>
-                                                <div class="col-specialization col-md-6 col-lg-4">
-                                                    <span class="icon-specialization icon-camera"></span>
-                                                    <h4 class="text-uppercase">Sécurité</h4>
-                                                    <p>J'accompagne mes clients dans la réalisations des travaux 
-                                                        d’installations et de maintenances des systèmes 
-                                                        de vidéo surveillance, d’alarme intrusion, 
-                                                        de détection incendie, de contrôle d’accès.</p>
-                                                </div>
-                                            </div>
-                                            <div class="view-all" data-menuanchor="page8">
-                                                <a href="#page7">
-                                                    Contactez-moi
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div>
+            <div data-aos="fade-up-right" data-aos-duration="300"
+              class="banner__thumb absolute xxl:left-[calc(50%--120px)] left-[calc(50%--80px)] bottom-0">
+              <img src="./assets/img/banner/banner-man.png" alt="man-img" class="w-full" />
             </div>
-           
-            <div data-anchor="page3" class="pp-scrollable section section-4">
-                <div class="scroll-wrap">
-                    <div class="section-bg bg-about" style="background-image:url(images/bg/about.jpg);"></div>
-                    <div class="scrollable-content">
-                        <div class="vertical-title text-white  d-none d-lg-block"><span>À propos</span></div>
-                        <div class="vertical-centred">
-                            <div class="boxed boxed-inner">
-                                <div class="boxed">
-                                    <div class="container">
-                                        <div class="intro">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-6 offset-xl-1">
-                                                    <div class="experience-box">
-                                                        <div class="experience-content">
-                                                            <h4>Plus de </h4>
-                                                            <div class="experience-number">5</div>
-                                                            <div class="experience-info">
-                                                                  
-                                                                <div>Années<br>d'expérience<br>de travail</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-5 mt-5 mt-xl-0">
-                                                    <h2 class="title"> <span class="text-primary">Le meilleur</span>
-                                                        des services</h2>
-                                                    J'accompagne mes clients tout au long du process de réalisation de la tâche, 
-                                                    afin de proposer les solutions les plus adaptées.
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-anchor="page4" class="pp-scrollable text-white section section-5">
-                <div class="scroll-wrap">
-                    <div class="bg-changer">
-                        <div class="section-bg" style="background-image:url(images/bg/project9.jpg);"></div>
-                        <div class="section-bg" style="background-image:url(images/bg/project8.jpg);"></div>
-                        <div class="section-bg" style="background-image:url(images/bg/project4.jpg);"></div>
-                        <div class="section-bg" style="background-image:url(images/bg/project6.jpg);"></div>
-                        <div class="section-bg" style="background-image:url(images/bg/project9.jpg);"></div>
-                    </div>
-                    <div class="scrollable-content">
-                        <div class="vertical-title  d-none d-lg-block"><span>Réalisations</span></div>
-                        <div class="vertical-centred">
-                            <div class="boxed boxed-inner">
-                                <div class="boxed">
-                                    <div class="container">
-                                        <div class="intro">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="project-row">
-                                                        <a class="active" href="https://wa.me/+242044913233">
-                                                            <span class="project-number">01</span>
-                                                            <h2 class="project-title">Moon-Pharma</h2>
-                                                            <div class="project-category">Application</div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="project-row">
-                                                        <a href="https://wa.me/+242044913233">
-                                                            <span class="project-number">02</span>
-                                                            <h2 class="project-title">Direct Cash in</h2>
-                                                            <div class="project-category">Application</div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="project-row">
-                                                        <a href="https://wa.me/+242044913233">
-                                                            <span class="project-number">03</span>
-                                                            <h2 class="project-title">Easy voyage</h2>
-                                                            <div class="project-category">Application</div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="project-row">
-                                                        <a href="https://wa.me/+242044913233">
-                                                            <span class="project-number">04</span>
-                                                            <h2 class="project-title">Paris SMS</h2>
-                                                            <div class="project-category">Application</div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="project-row">
-                                                        <a href="https://wa.me/+242044913233">
-                                                            <span class="project-number">05</span>
-                                                            <h2 class="project-title">FlyZik</h2>
-                                                            <div class="project-category">Application</div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="view-all view-all-projects">
-                                                        <a href="https://wa.me/+242044913233">
-                                                            Contactez-moi pour plus d'informations
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-anchor="page5" class="pp-scrollable section section-6">
-                <div class="scroll-wrap">
-                    <div class="scrollable-content">
-                        <div class="vertical-title text-white d-none d-lg-block"><span>Clients</span></div>
-                        <div class="vertical-centred">
-                            <div class="boxed boxed-inner">
-                                <div class="boxed">
-                                    <div class="container">
-                                        <div class="intro">
-                                            <h2 class="title text-white"><span class="text-primary">Clients</span>
-                                                de references</h2>
-                                            <div class="row row-partners">
-                                                <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                    <div class="partner-inner"><img alt="" src="images/clients/pnud.png">
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                    <div class="partner-inner"><img alt="" src="images/clients/cciam.png">
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                    <div class="partner-inner"><img alt="" src="images/clients/cemaco.png">
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                                                    <div class="partner-inner"><img alt="" src="images/clients/ic_maji.png">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-anchor="page6" class="pp-scrollable section section-8">
-                <div class="scroll-wrap">
-                    <div class="section-bg" style="background-image:url(images/bg/contact.jpg);"></div>
-                    <div class="scrollable-content">
-                        <div class="vertical-title text-white d-none d-lg-block"><span>contacts</span></div>
-                        <div class="vertical-centred">
-                            <div class="boxed boxed-inner">
-                                <div class="boxed">
-                                    <div class="container">
-                                        <div class="intro overflow-hidden">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <h2 class="title"><span class="text-primary">Contactez-moi</span>
-                                                    </h2>
-                                                    <section class="contact-address">
-                                                        <h3><a class="mail" href="mailto:rubensalban@gmail.com">
-                                                            <span>rubensalban@gmail.com</span></a>
-                                                        </h3>
-                                                        <h3><a href="tel:+242044913233"><span class="phone">+242 04 491 3233</span></a></h3>
-                                                    </section>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="contact-info">
-                                                        <form class="js-form" novalidate="novalidate">
-                                                            <div class="row">
-                                                               <img style="width: 100%;" src="images/contact.png" alt="">
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="banner__rightinfo hidden absolute right-0 top-[55%] -translate-y-1/2 xl:grid gap-[150px]">
+        <div class="right__infoscroll flex items-center justify-center gap-[50px] rotate-90">
+          <a href="#follow" class="scroll text-clr_pra uppercase text-[15px]">
+            Suivez-moi
+          </a>
+          <a href="#follow" class="scroll__bar -rotate-90">
+            <img src="./assets/img/banner/scroll-down.png" alt="img" class="w-5" />
+          </a>
+        </div>
+        <div class="banner__xlsocial">
+          <ul class="banner__soci grid justify-center lg:gap-[14px] gap-[10px]">
+            <li>
+              <a href="https://linkedin.com/in/rubens-alban-mouko-942845131" target="_blank"
+                class="lg:w-[46px] lg:h-[46px] h-[38px] w-[38xp] rounded-full bg-[rgb(18_18_18)] flex justify-center items-center">
+                <i class="bi bi-linkedin text-white"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Rubensalban" target="_blank"
+                class="lg:w-[46px] lg:h-[46px] h-[38px] w-[38xp] rounded-full bg-[rgb(18_18_18)] flex justify-center items-center">
+                <i class="bi bi-github text-white"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------ Banner end -->
     </div>
+    <!-- ---------- Marquee 1 -->
+    <div class="relative marquee-wrapper text-slider bg-clr_base h-[90px] overflow-hidden">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="./assets/img/banner/ts1.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts3.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts4.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts1.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts3.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts4.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ---------- Marquee 1 -->
+    <!-- ------------- About -->
+    <section class="about__section pt_120 pb_120" id="about">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <!-- --------------- Heading -->
+        <div class="personal__head text-center mx-auto xl:mb-[60px] md:mb-[50px] mb-[30px]">
+          <img src="./assets/img/about/section-star.png" class="mb-[30px] animate-spin mx-auto" alt="star"
+            data-aos="fade-up" data-aos-duration="1000" />
+          <p class="descrp lg:text-[42px] md:text-[28px] sm:text-xl text-base font-medium text-clr_white lg:leading-[66px]"
+            data-aos="fade-up" data-aos-duration="1500">
+            Développeur backend et mobile passionné, je suis Ruben's Alban. Expert dans la création d'applications
+            robustes et performantes, tant du côté serveur que du côté client. Mon objectif est de concrétiser des idées
+            innovantes en solutions logicielles fonctionnelles et évolutives. Parlons de votre projet et explorons
+            ensemble les possibilités infinies de la technologie.
+          </p>
+        </div>
+        <!-- --------------- Heading -->
+        <div class="singletab">
+          <!-- ----------- Nav -->
+          <ul class="tablinks flex items-center justify-center flex-wrap gap-5 mb-[100px]">
+            <li>
+              <button data="about"
+                class="tablink bg-clr_base text-clr_title rounded-[10px] lg:text-lg text-sm uppercase font-medium border-none lg:py-4 lg:px-[30px] py-[10px] px-5 text-center">
+                À propos
+              </button>
+            </li>
+            <li>
+              <button data="experience"
+                class="tablink bg-[#111111] text-clr_white rounded-[10px] lg:text-lg text-sm uppercase font-medium border-none lg:py-4 lg:px-[30px] py-[10px] px-5 text-center">
+                Expérience
+              </button>
+            </li>
+            <li>
+              <button data="skills"
+                class="tablink bg-[#111111] text-clr_white rounded-[10px] lg:text-lg text-sm uppercase font-medium border-none lg:py-4 lg:px-[30px] py-[10px] px-5 text-center">
+                Compétences
+              </button>
+            </li>
+          </ul>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/animsition.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.pagepiling.min.js"></script>
+          <!-- ----------- Nav -->
+          <div class="tabcontents relative">
+            <!-- ---------- Personal Info -->
+            <div data="about" class="tabitem w-full duration-700 z-10 opacity-100 translate-y-0">
+              <div
+                class="about__v1wrap bg-common_bg bg-center bg-no-repeat bg-cover rounded-[10px] overflow-hidden sm:p-[60px] py-[30px] px-[10px]">
+                <div class="grid lg:grid-cols-[41%_auto] gap-6 lg:items-start align-items-center">
+                  <div>
+                    <div class="about__onethumb w-full" data-aos="zoom-in" data-aos-duration="500">
+                      <img src="./assets/img/about/personal-infothumb.png" alt="img" class="w-full" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="about__onecontent lg:pl-10 pl-0">
+                      <h2 class="text-[42px] font-semibold text-clr_white mb-5" data-aos="fade-up"
+                        data-aos-duration="500">
+                        Ruben's Alban
+                      </h2>
+                      <p class="text-lg text-clr_pra mb-0" data-aos="fade-up" data-aos-duration="500">
+                        Enthousiaste du développement, je suis un professionnel spécialisé dans le développement backend
+                        et mobile.
+                        Mon objectif est de concrétiser des idées innovantes en solutions logicielles fonctionnelles et
+                        évolutives.
+                        Fort de mon expérience dans la conception d'architectures backend fiables et la création
+                        d'expériences utilisateur
+                        fluides sur mobile, je suis passionné par la recherche de solutions techniques élégantes.
+                      </p>
+                      <div class="mt-10">
+                        <div class="grid xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 grid-cols-1 justify-between gap-6"
+                          data-aos="zoom-in">
+                          <div
+                            class="abox rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="">
+                              <span class="ptext text-clr_pra fz-18 md:text-lg text-base mb-5 block">
+                                Email
+                              </span>
+                              <a href="mailto:rubensalban@gmail.com"
+                                class="text-xl text-clr_white">rubensalban@gmail.com</a>
+                            </div>
+                          </div>
+                          <div
+                            class="abox rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="">
+                              <span class="ptext text-clr_pra fz-18 md:text-lg text-base mb-5 block">
+                                Phone
+                              </span>
+                              <a href="tel:+242044913233" class="text-xl text-clr_white">+242 04 491 3233</a>
+                            </div>
+                          </div>
+                          <div
+                            class="abox rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="">
+                              <span class="ptext text-clr_pra fz-18 md:text-lg text-base mb-5 block">
+                                Address
+                              </span>
+                              <span class="text-xl text-clr_white">Centre ville, 75 Avenue Gustave
+                                Ondziel, Pointe-Noire</span>
+                            </div>
+                          </div>
+                          <div
+                            class="abox rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="">
+                              <span class="ptext text-clr_pra fz-18 md:text-lg text-base mb-5 block">
+                                Follow
+                              </span>
+                              <ul class="flex items-center xl:gap-4 gap-2">
+                                <li>
+                                  <a href="https://www.linkedin.com/in/rubensalban/" target="_blank"
+                                    class="text-clr_white text-xl">
+                                    <i class="bi bi-linkedin"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="https://github.com/rubensalban" target="_blank" class="text-clr_white text-xl">
+                                    <i class="bi bi-github"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <script src="js/scripts.js"></script>
+            <!-- ---------- Personal Info -->
+            <!-- ---------- Expérience Info -->
+            <div data="experience" class="tabitem w-full duration-700 top-0 absolute translate-y-20 -z-10 opacity-0">
+              <div
+                class="about__v1wrap bg-common_bg bg-center bg-no-repeat bg-cover rounded-[10px] overflow-hidden sm:p-[60px] py-[30px] px-[10px]">
+                <div class="grid lg:grid-cols-[41%_auto] gap-6 lg:items-start items-center">
+                  <div>
+                    <div class="about__onethumb">
+                      <img src="./assets/img/about/personal-infothumb.png" alt="img" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="about__onecontent lg:pl-10 pl-0">
+                      <h2 class="text-[42px] font-semibold text-clr_white mb-5">
+                        Expérience Professionnelle
+                      </h2>
+                      <p class="text-lg text-clr_pra mb-0">
+                        Découvrez mes expériences professionnelles récentes :
+                      </p>
+                      <div class="exprience__box lg:mt-[30px] mt-5">
+                        <!-- NYOTA -->
+                        <div
+                          class="exri__item flex items-center justify-between border-t border-t-clr_cusborder py-6 duration-500 last:border-y last:border-b-clr_cusborder hover:border-clr_hover">
+                          <span class="md:text-lg text-base font-medium text-clr_base">
+                            Juillet 2023 - Présent
+                          </span>
+                          <div class="expri__cont">
+                            <h4 class="mb-[15px] text-white font-semibold md:text-2xl text-lg leading-[130px]">
+                              Développeur Backend & Applications
+                            </h4>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              NYOTA, Pointe-Noire, République du Congo
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Développement de l'application mobile Nyota Pay.
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Développement de l'API de l'écosystème monétaire Nyota Pay.
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Intégration des API externes (Airtel Money, MTN MobileMoney, Uba bank) à l'écosystème
+                              Nyota Pay.
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- Yellobox Technologies -->
+                        <div
+                          class="exri__item flex items-center justify-between border-t border-t-clr_cusborder py-6 duration-500 last:border-y last:border-b-clr_cusborder hover:border-clr_hover">
+                          <span class="md:text-lg text-base font-medium text-clr_base">
+                            Février 2023 - Présent
+                          </span>
+                          <div class="expri__cont">
+                            <h4 class="mb-[15px] text-white font-semibold md:text-2xl text-lg leading-[130px]">
+                              Développeur Backend & d’Applications Mobiles
+                            </h4>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              Yellobox Technologies, Pointe-Noire, République du Congo
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Conception et développement de l'application mobile RM-Fit et du logiciel de gestion
+                              interne de la salle de sport RM-Fitness.
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- MAJI Technologies -->
+                        <div
+                          class="exri__item flex items-center justify-between border-t border-t-clr_cusborder py-6 duration-500 last:border-y last:border-b-clr_cusborder hover:border-clr_hover">
+                          <span class="md:text-lg text-base font-medium text-clr_base">
+                            Juin 2021 - Présent
+                          </span>
+                          <div class="expri__cont">
+                            <h4 class="mb-[15px] text-white font-semibold md:text-2xl text-lg leading-[130px]">
+                              Consultant Développeur Backend, Mobile & Web
+                            </h4>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              MAJI Technologies, Pointe-Noire, République du Congo
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Conception et développement d'applications clés, dont Paris SMS (application de paris
+                              sportifs), Direct Cash In (application mobile) et EasyVoyage (application mobile).
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- Bridge Technologies -->
+                        <div
+                          class="exri__item flex items-center justify-between border-t border-t-clr_cusborder py-6 duration-500 last:border-y last:border-b-clr_cusborder hover:border-clr_hover">
+                          <span class="md:text-lg text-base font-medium text-clr_base">
+                            Septembre 2022 - Février 2023
+                          </span>
+                          <div class="expri__cont">
+                            <h4 class="mb-[15px] text-white font-semibold md:text-2xl text-lg leading-[130px]">
+                              Développeur Full Stack
+                            </h4>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              Bridge Technologies, Pointe-Noire, République du Congo
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Maintenance et mise à jour de la plateforme web de gestion des procédures (B-Process)
+                              utilisée par la Brasserie du Congo (Brasco).
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- PNUD République du Congo -->
+                        <div
+                          class="exri__item flex items-center justify-between border-t border-t-clr_cusborder py-6 duration-500 last:border-y last:border-b-clr_cusborder hover:border-clr_hover">
+                          <span class="md:text-lg text-base font-medium text-clr_base">
+                            Novembre 2021 - Janvier 2022
+                          </span>
+                          <div class="expri__cont">
+                            <h4 class="mb-[15px] text-white font-semibold md:text-2xl text-lg leading-[130px]">
+                              Consultant Développeur Mobile
+                            </h4>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              PNUD République du Congo, Pointe-Noire, République du Congo
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Conception et développement de la plateforme mobile Moon-Pharma.
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- Chambre de Commerce -->
+                        <div
+                          class="exri__item flex items-center justify-between border-t border-t-clr_cusborder py-6 duration-500 last:border-y last:border-b-clr_cusborder hover:border-clr_hover">
+                          <span class="md:text-lg text-base font-medium text-clr_base">
+                            Mars 2021 - Mai 2021
+                          </span>
+                          <div class="expri__cont">
+                            <h4 class="mb-[15px] text-white font-semibold md:text-2xl text-lg leading-[130px]">
+                              Développeur Web Freelance
+                            </h4>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              Chambre de Commerce, d'Industrie, d'Agriculture et des Métiers de Pointe-Noire
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Mise à jour du site de la Chambre Consulaire de Commerce de Pointe-Noire (CCIAM PNR) et
+                              conception du site internet du Centre de Médiation et d'Arbitrage du Congo (CEMACO).
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- BITSI -->
+                        <div
+                          class="exri__item flex items-center justify-between border-t border-t-clr_cusborder py-6 duration-500 last:border-y last:border-b-clr_cusborder hover:border-clr_hover">
+                          <span class="md:text-lg text-base font-medium text-clr_base">
+                            septembre 2019 - février 2020
+                          </span>
+                          <div class="expri__cont">
+                            <h4 class="mb-[15px] text-white font-semibold md:text-2xl text-lg leading-[130px]">
+                              Community Manager & Développeur
+                            </h4>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              BITSI, Pointe-Noire, République du Congo
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Responsable de l'édition de l'hebdomadaire NewsPresso et de l'animation des différents
+                              réseaux sociaux de l'entreprise.
+                            </p>
+                            <p class="md:text-lg text-base text-clr_pra d-block">
+                              - Initiation au développement backend et mobile pour améliorer mes compétences techniques.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ---------- Experience Info -->
+
+            <!-- ---------- Skill Info -->
+            <!-- ---------- Compétences -->
+            <div data="skills" class="tabitem w-full duration-700 top-0 absolute translate-y-20 -z-10 opacity-0">
+              <div
+                class="about__v1wrap bg-common_bg bg-center bg-no-repeat bg-cover rounded-[10px] overflow-hidden sm:p-[60px] py-[30px] px-[10px]">
+                <div class="grid lg:grid-cols-[41%_auto] gap-6 lg:items-start items-center">
+                  <div>
+                    <div class="about__onethumb">
+                      <img src="nouveau-chemin-vers-votre-image-nodejs" alt="img" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="about__onecontent">
+                      <h2 class="text-[42px] font-semibold text-clr_white mb-5">
+                        Mes Compétences
+                      </h2>
+                      <p class="text-lg text-clr_pra mb-0">
+                        Découvrez mes compétences techniques :
+                      </p>
+                      <div class="mt-10">
+                        <div class="grid xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 grid-cols-1 justify-between gap-6">
+                          <div
+                            class="rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="abox myskill__item flex items-center gap-6">
+                              <div class="">
+                                <img
+                                  src="https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon.png"
+                                  alt="img" />
+                              </div>
+                              <div class="mys">
+                                <span
+                                  class="ptext md:text-lg text-base lg:mb-[15px] mb-[10px] block text-clr_pra">Node.js</span>
+                                <h1 class="font-semibold text-5xl text-clr_white">
+                                  95%
+                                </h1>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="abox myskill__item flex items-center gap-6">
+                              <div class="">
+                                <img src="https://logowik.com/content/uploads/images/flutter5786.jpg" alt="img" />
+                              </div>
+                              <div class="mys">
+                                <span
+                                  class="ptext md:text-lg text-base lg:mb-[15px] mb-[10px] block text-clr_pra">Flutter</span>
+                                <h1 class="font-semibold text-5xl text-clr_white">
+                                  95%
+                                </h1>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="abox myskill__item flex items-center gap-6">
+                              <div class="">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/NuxtJS_Logo.png"
+                                  alt="img" />
+                              </div>
+                              <div class="mys">
+                                <span
+                                  class="ptext md:text-lg text-base lg:mb-[15px] mb-[10px] block text-clr_pra">Nuxt.js</span>
+                                <h1 class="font-semibold text-5xl text-clr_white">
+                                  95%
+                                </h1>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="rounded-[10px] bg-[#111111] p-[35px] border border-[#F2C800] duration-500 hover:border-clr_base">
+                            <div class="abox myskill__item flex items-center gap-6">
+                              <div class="">
+                                <img src="assets/img/about/vuejs.png" alt="img" />
+                              </div>
+                              <div class="mys">
+                                <span
+                                  class="ptext md:text-lg text-base lg:mb-[15px] mb-[10px] block text-clr_pra">Vue.js</span>
+                                <h1 class="font-semibold text-5xl text-clr_white">
+                                  90%
+                                </h1>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ---------- Skill Info -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------- Marquee 2 -->
+    <div class="relative marquee-wrapper text-slider bg-clr_base h-[90px] overflow-hidden">
+      <div class="slide-track slide-track2">
+        <div class="slide">
+          <img src="./assets/img/banner/ts5.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts6.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts7.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts8.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts5.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts6.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts7.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/banner/ts8.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ---------- Marquee 2 -->
+
+    <!-- ----------- Projects Start -->
+    <section class="pt_120 pb_120" id="projects">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <!-- heading -->
+        <div class="text-center max-w-[920px] mx-auto md:mb-[60px] sm:mb-[50px] mb-[45px]">
+          <p class="text-2xl font-caveat text-clr_base relative flex justify-center items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]"
+            data-aos="fade-down" data-aos-duration="1000">
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+            Mes derniers Projets Réalisés
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+          </p>
+          <h2
+            class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white lg:leading-[120%] md:leading-tight leading-9"
+            data-aos="fade-up" data-aos-duration="1200">
+            Découvrez Mes Projets et Donnez-Moi Vos Retours
+          </h2>
+        </div>
+        <!-- heading -->
+    
+        <div class="md:columns-2 col-span-1 xxl:gap-[58px] lg:gap-12 md:gap-[30px]">
+          <!-- card Moon-Pharma -->
+          <div class="project__item overflow-hidden group xl:mb-[60px] lg:mb-[50px] mb-[30px]" data-aos="fade-up"
+            data-aos-duration="1000">
+            <a href="https://play.google.com/store/apps/details?id=cg.rbns.clients.moonpharma&hl=fr"
+              class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer" target="_blank">
+              <img src="assets/img/project/pro5.png" alt="img"
+                class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105" />
+            </a>
+            <div class="content flex items-center justify-between gap-1">
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.clients.moonpharma&hl=fr" class="left__cont"
+                target="_blank">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                  Projet
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+                  Moon-Pharma
+                </h3>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.clients.moonpharma&hl=fr"
+                class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+                target="_blank">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card Moon-Pharma -->
+    
+          <!-- card Franprix -->
+          <div class="overflow-hidden group xl:mb-[60px] lg:mb-[50px] mb-[30px]" data-aos="fade-up"
+            data-aos-duration="1000">
+            <a href="https://play.google.com/store/apps/details?id=cg.nyota.franprix&hl=fr"
+              class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer" target="_blank">
+              <img src="assets/img/project/pro5.png" alt="img"
+                class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105" />
+            </a>
+    
+            <div class="content flex items-center justify-between gap-1">
+              <a href="https://play.google.com/store/apps/details?id=cg.nyota.franprix&hl=fr" class="left__cont"
+                target="_blank">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                  Projet
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+                  Franprix
+                </h3>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=cg.nyota.franprix&hl=fr"
+                class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+                target="_blank">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card Franprix -->
+    
+          <!-- card Direct Cash In -->
+          <div class="overflow-hidden group" data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://play.google.com/store/apps/details?id=cg.rbns.majitechnologie.directcash&hl=fr"
+              class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer" target="_blank">
+              <img src="assets/img/project/pro5.png" alt="img"
+                class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105" />
+            </a>
+            <div class="content flex items-center justify-between gap-1">
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.majitechnologie.directcash&hl=fr"
+                class="left__cont" target="_blank">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                  Projet
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+                  Direct Cash In
+                </h3>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.majitechnologie.directcash&hl=fr"
+                class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+                target="_blank">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card Direct Cash In -->
+    
+          <!-- card RM-FIT -->
+          <div class="project__item overflow-hidden group xl:mb-[60px] lg:mb-[50px] mb-[30px]" data-aos="fade-up"
+            data-aos-duration="1000">
+            <a href="https://play.google.com/store/apps/details?id=cg.rbns.rm.rmfitness&hl=fr"
+              class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer" target="_blank">
+              <img src="assets/img/project/pro5.png" alt="img"
+                class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105" />
+            </a>
+            <div class="content flex items-center justify-between gap-1">
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.rm.rmfitness&hl=fr" class="left__cont"
+                target="_blank">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                  Projet
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+                  RM-FIT
+                </h3>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.rm.rmfitness&hl=fr"
+                class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+                target="_blank">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card RM-FIT -->
+    
+          <!-- card FlyZik -->
+          <div class="overflow-hidden group xl:mb-[60px] lg:mb-[50px] mb-[30px]" data-aos="fade-up"
+            data-aos-duration="1000">
+            <a href="https://play.google.com/store/apps/details?id=cg.rbns.zabrawnindustrie.flyzik&hl=fr"
+              class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer" target="_blank">
+              <img src="assets/img/project/pro5.png" alt="img"
+                class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105" />
+            </a>
+            <div class="content flex items-center justify-between gap-1">
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.zabrawnindustrie.flyzik&hl=fr"
+                class="left__cont" target="_blank">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                  Projet
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+                  FlyZik
+                </h3>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.zabrawnindustrie.flyzik&hl=fr"
+                class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+                target="_blank">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card FlyZik -->
+    
+          <!-- card Easy Voyage -->
+          <div class="project__item overflow-hidden group" data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://play.google.com/store/apps/details?id=cg.rbns.majitechnologie.easyvoyage&hl=fr"
+              class="imgc overflow-hidden lg:mb-[30px] mb-[20px] block w-full cursor-pointer" target="_blank">
+              <img src="assets/img/project/pro5.png" alt="img"
+                class="w-full overflow-hidden duration-500 rounded-[10px] group-hover:scale-105" />
+            </a>
+            <div class="content flex items-center justify-between gap-1">
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.majitechnologie.easyvoyage&hl=fr"
+                class="left__cont" target="_blank">
+                <span class="text-clr_base xl:mb-4 mb-2 block uppercase xl:text-lg text-base">
+                  Projet
+                </span>
+                <h3 class="xl:text-[30px] sm:text-2xl text-xl font-semibold text-white">
+                  Easy Voyage
+                </h3>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=cg.rbns.majitechnologie.easyvoyage&hl=fr"
+                class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer"
+                target="_blank">
+                <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- card Easy Voyage -->
+        </div>
+
+        <!-- -------- Cricle box -->
+        <div class="mt-[100px] flex justify-center">
+          <a  href="https://wa.me/242044913233" target="_blank"
+            class="md:w-52 md:h-52 w-32 h-32 bg-clr_base rounded-full flex justify-center items-center text-center relative before:w-full before:h-full before:rounded-full before:border before:border-clr_base before:content-[''] before:absolute before:top-[10px] before:-left-[7px] before:duration-500 hover:before:-top-[10px]"
+            data-aos="zoom-out-down" data-aos-duration="2000">
+            <span class="relative z-10">
+              <i
+                class="bi-arrow-right mb-[1px] md:text-[28px] text-base text-center flex justify-center text-clr_title transition-all">
+              </i>
+              <span class="text-[#282828] md:text-lg text-sm font-medium leading-[30px] capitalize transition-all">
+                Contactez-moi pour plus de projects
+              </span>
+            </span>
+          </a>
+        </div>
+        <!-- -------- Cricle box -->
+      </div>
+    </section>
+    <!-- ----------- Projects End -->
+
+    <!-- ----------- Début de la réunion -->
+    <section class="bg-common_bg bg-center bg-no-repeat bg-cover rounded-[10px] overflow-hidden pt_120 pb_120">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <div class="grid lg:grid-cols-[58%_auto] gap-20 items-center">
+          <div>
+            <!-- ---------- Titre -->
+            <div class="pb-[50px]">
+              <span
+                class="text-2xl font-caveat text-clr_base relative flex items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]"
+                data-aos="fade-down" data-aos-duration="1000">
+                <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+                Vous avez un Projet ?
+              </span>
+              <h2 class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white max-w-[620px]"
+                data-aos="fade-down" data-aos-duration="1600">
+                Travaillons ensemble. Fixons un rendez-vous.
+              </h2>
+            </div>
+            <!-- ---------- Titre -->
+            <!-- ---------- Système de réunion -->
+            <div>
+              <div class="border-b border-b-[rgb(39,38,38)] hover:border-b-clr_base duration-500 transition-all"></div>
+              <div
+                class="hover:border-b hover:border-b-clr_base flex ga-5 items-center md:gap-5 gap-4 duration-500 transition-all border-b border-b-[rgb(38_37_37)] lg:pb-[30px] pb-5 lg:pt-[30px] pt-[20px]"
+                data-aos="fade-up" data-aos-duration="1000">
+                <span class="w-[60px] h-[60px] rounded-full bg-clr_base flex justify-center items-center">
+                  <i class="bi-envelope text-[26px] text-clr_title"></i>
+                </span>
+                <span class="">
+                  <span class="text-clr_pra md:text-lg text-base mb-1 block">
+                    Email
+                  </span>
+                  <a href="mailto:rubensalban@gmail.com" class="text-white md:text-xl text-base font-medium">
+                    rubensalban@gmail.com
+                  </a>
+                </span>
+              </div>
+              <div
+                class="hover:border-b hover:border-b-clr_base flex ga-5 items-center md:gap-5 gap-4 duration-500 transition-all border-b border-b-[rgb(38_37_37)] lg:pb-[30px] pb-5 lg:pt-[30px] pt-[20px]"
+                data-aos="fade-up" data-aos-duration="1000">
+                <span class="w-[60px] h-[60px] rounded-full bg-clr_base flex justify-center items-center">
+                  <i class="bi-whatsapp text-[26px] text-clr_title"></i>
+                </span>
+                <span class="">
+                  <span class="text-clr_pra md:text-lg text-base mb-1 block">
+                    Whatsapp
+                  </span>
+                  <a href="https://wa.me/242044913233" class="text-white md:text-xl text-base font-medium">
+                    +242 04 491 3233
+                  </a>
+                </span>
+              </div>
+              <div
+                class="hover:border-b hover:border-b-clr_base flex ga-5 items-center md:gap-5 gap-4 duration-500 border-b border-b-[rgb(38_37_37)] lg:pb-[30px] pb-5 lg:pt-[30px] pt-[20px]"
+                data-aos="fade-up" data-aos-duration="1500">
+                <span class="w-[60px] h-[60px] rounded-full bg-clr_base flex justify-center items-center">
+                  <i class="bi-geo-alt text-[26px] text-clr_title"></i>
+                </span>
+                <span class="">
+                  <span class="text-clr_pra md:text-lg text-base mb-1 block">
+                    Adresse
+                  </span>
+                  <span class="text-white md:text-xl text-base font-medium">
+                    Centre ville, 75 Avenue Gustave
+                    Ondziel, Pointe-Noire, République du Congo
+                  </span>
+                </span>
+              </div>
+            </div>
+            <!-- ---------- Système de réunion -->
+          </div>
+          <!-- --------- Côté droit / image -->
+          <div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+              <img src="./assets/img/project/project-need.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------- Fin de la réunion -->
+
+    <!-- ----------- Début des services -->
+    <section id="services" class="pt_120 pb_120">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <!-- --------- Titre -->
+        <div class="text-center max-w-[920px] mx-auto md:mb-[60px] sm:mb-[50px] mb-[45px]">
+          <p class="text-2xl font-caveat text-clr_base relative flex justify-center items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]"
+            data-aos="fade-down" data-aos-duration="1000">
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+            Les Services que je Propose
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+          </p>
+          <h2
+            class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white lg:leading-[120%] md:leading-tight leading-9"
+            data-aos="fade-up" data-aos-duration="1200">
+            Mes Services Spéciaux pour le Développement de Votre Entreprise
+          </h2>
+        </div>
+        <!-- --------- Titre -->
+
+        <div>
+          <!-- carte 1 -->
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up" data-aos-duration="1000">
+            <div class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2">
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 01 </span>
+                <div class="cont">
+                  <h5 class="text-base lg:text-xl font-semibold text-white mb-2">
+                    Développeur Backend
+                  </h5>
+                  <h2 class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]">
+                    <a href="./index.html#contacts" class="text-white duration-500">
+                      Conception d'API et Gestion des Serveurs
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Je développe des solutions backend robustes, des API performantes et assure la gestion des
+                serveurs pour une expérience utilisateur fluide.
+              </p>
+            </div>
+
+            <a href="./s"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer">
+              <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+            </a>
+          </div>
+          <!-- carte 1 -->
+
+          <!-- carte 2 -->
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up" data-aos-duration="1000">
+            <div class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2">
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 02 </span>
+                <div class="cont">
+                  <h5 class="text-base lg:text-xl font-semibold text-white mb-2">
+                    Développeur Mobile
+                  </h5>
+                  <h2 class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]">
+                    <a href="./index.html#contacts" class="text-white duration-500">
+                      Applications Mobiles Innovantes
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Je crée des applications mobiles innovantes, centrées sur l'utilisateur et compatibles avec
+                diverses plateformes.
+              </p>
+            </div>
+
+            <a href="./index.html#contacts"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer">
+              <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+            </a>
+          </div>
+          <!-- carte 2 -->
+
+          <!-- carte 3 -->
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up" data-aos-duration="1000">
+            <div class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2">
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 03 </span>
+                <div class="cont">
+                  <h5 class="text-base lg:text-xl font-semibold text-white mb-2">
+                    UI/UX Designer
+                  </h5>
+                  <h2 class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]">
+                    <a href="./index.html#contacts" class="text-white duration-500">
+                      Conception Web UI/UX
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Je crée des designs Web UI/UX esthétiques et conviviaux pour améliorer l'expérience utilisateur.
+              </p>
+            </div>
+
+            <a href="./index.html#contacts"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer">
+              <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+            </a>
+          </div>
+          <!-- carte 3 -->
+
+          <!-- Carte 4 personnalisée -->
+          <div
+            class="lg:pb-10 pb-[30px] lg:pt-10 pt-[30px] flex justify-between items-center sm:gap-[14px] gap-5 sm:flex-nowrap flex-wrap border-b duration-500 border-b-[rgb(38_37_37)] first:border-t first:border-t-[rgb(38_37_37)] hover:border-b-clr_base hover:first:border-t-clr_base group"
+            data-aos="fade-up" data-aos-duration="1000">
+            <div class="w-[1062px] flex items-center justify-between md:flex-nowrap flex-wrap md:gap-[14px] gap-2">
+              <div class="flex lg:gap-[60px] gap-[16px]">
+                <span class="text-xl text-white"> 04 </span>
+                <div class="cont">
+                  <h5 class="text-base lg:text-xl font-semibold text-white mb-2">
+                    Conception Web
+                  </h5>
+                  <h2 class="text-[26px] xl:text-[40px] lg:text-3xl font-semibold lg:leading-[120%]">
+                    <a href="./index.html#contacts" class="text-white duration-500">
+                      Conception d'Applications
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <p class="text-clr_pra text-base lg:w-[400px] w-[300px]">
+                Apportant une touche artistique à chaque pixel, je crée des designs d'applications qui
+                captivent l'attention et offrent une expérience utilisateur exceptionnelle. Mon approche
+                centrée sur l'utilisateur garantit des conceptions intuitives et esthétiques.
+              </p>
+            </div>
+            <a href="./index.html#contacts"
+              class="imgc h-[45px] w-[45px] sm:w-[60px] sm:h-[60px] rounded-md bg-[#F2C800] flex justify-center items-center duration-500 group-hover:bg-clr_base cursor-pointer">
+              <i class="bi-arrow-up-right duration-500 group-hover:text-clr_title text-lg sm:text-xl text-white"></i>
+            </a>
+            <!-- Fin de la carte 4 personnalisée -->
+
+          </div>
+        </div>
+    </section>
+    <!-- ----------- Services End -->
+    <!-- ----------- Processus de Travail start -->
+    <section class="bg-common_bg bg-center bg-no-repeat bg-cover rounded-[10px] overflow-hidden pt_120 pb_120">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <!-- --------- Titre -->
+        <div class="text-center max-w-[920px] mx-auto md:mb-[60px] sm:mb-[50px] mb-[45px]">
+          <p class="text-2xl font-caveat text-clr_base relative flex justify-center items-center sm:gap-6 gap-[14px] mx-auto mb-[30px]"
+            data-aos="fade-down" data-aos-duration="1000">
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+            Processus de Travail
+            <span class="sm:w-20 w-[50px] h-[1px] bg-clr_base"></span>
+          </p>
+          <h2
+            class="font-medium lg:text-6xl md:text-5xl sm:text-4xl text-[29px] text-white lg:leading-[120%] md:leading-tight leading-9"
+            data-aos="fade-up" data-aos-duration="1200">
+            Votre Site Web de Rêve En Quelques Étapes Simples
+          </h2>
+        </div>
+        <!-- --------- Titre -->
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
+          <div data-aos="flip-up" data-aos-duration="500">
+            <div
+              class="overflow-hidden duration-500 border border-clr_cusborder rounded-[10px] p-[30px] relative after:absolute after:w-[50px] after:h-[50px] after:bottom-0 after:right-0 after:content-[''] after:bg-[#121212] after:rounded-tl-[100px] after:rounded-tr-[20px] after:duration-500 hover:border-clr_base hover:after:bg-clr_base">
+              <h2 class="text-white lg:mb-6 mb-4 capitalize sm:text-[40px] text-3xl leading-[120%] font-semibold">
+                Concept
+              </h2>
+              <p class="lg:mb-[30px] mb-5 text-clr_pra text-lg">
+                Imaginer et définir les bases de votre projet pour un résultat optimal.
+              </p>
+              <ul>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Analyse de la marque existante</p>
+                </li>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">
+                    Recherche de la cible et des concurrents
+                  </p>
+                </li>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Développement d'une stratégie</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div data-aos="flip-up" data-aos-duration="500">
+            <div
+              class="overflow-hidden duration-500 border border-clr_cusborder rounded-[10px] p-[30px] relative after:absolute after:w-[50px] after:h-[50px] after:bottom-0 after:right-0 after:content-[''] after:bg-[#121212] after:rounded-tl-[100px] after:rounded-tr-[20px] after:duration-500 hover:border-clr_base hover:after:bg-clr_base">
+              <h2 class="text-white lg:mb-6 mb-4 capitalize sm:text-[40px] text-3xl leading-[120%] font-semibold">
+                Design
+              </h2>
+              <p class="lg:mb-[30px] mb-5 text-clr_pra text-lg">
+                Créer des wireframes et des maquettes pour donner vie à votre vision.
+              </p>
+              <ul>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Développement de wireframes et de maquettes</p>
+                </li>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Choix de la typographie et des palettes de couleurs</p>
+                </li>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Affinage du design</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div data-aos="flip-up" data-aos-duration="500">
+            <div
+              class="overflow-hidden duration-500 border border-clr_cusborder rounded-[10px] p-[30px] relative after:absolute after:w-[50px] after:h-[50px] after:bottom-0 after:right-0 after:content-[''] after:bg-[#121212] after:rounded-tl-[100px] after:rounded-tr-[20px] after:duration-500 hover:border-clr_base hover:after:bg-clr_base">
+              <h2 class="text-white lg:mb-6 mb-4 capitalize sm:text-[40px] text-3xl leading-[120%] font-semibold">
+                Webflow
+              </h2>
+              <p class="lg:mb-[30px] mb-5 text-clr_pra text-lg">
+                Tester le projet de manière approfondie avant son lancement officiel.
+              </p>
+              <ul>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Test approfondi du site Web avant le lancement</p>
+                </li>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Choix de la typographie et des palettes de couleurs</p>
+                </li>
+                <li class="relative flex items-center gap-[10px] text-[#999999] pl-5 mb-2 last:mb-0">
+                  <span class="w-[9px] h-[9px] bg-clr_base rounded-full"></span>
+                  <p class="text-sm">Affinage du design</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------- Processus de Travail End -->
+    <!-- -------- Footer -->
+    <footer id="contacts">
+      <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+        <div class="pt_120 pb-[120px]">
+          <div
+            class="fl text-[10.5vw] uppercase font-medium leading-none w-full xl:mb-[60px] sm:mb-10 mb-5 border border-clr_cusborder rounded-lg text-center p-[10px] text-white"
+            data-aos="fade-up" data-aos-duration="1000">
+            Contactez-moi
+          </div>
+          <div class="flex md:flex-row flex-col justify-between gap-4">
+            <div class="basis-1/2 shrink">
+              <div>
+                <p class="xl:mb-[60px] lg:mb-10 mb-[10px] lg:text-2xl sm:text-lg text-[17px] text-white max-w-lg">
+                  Salut, je suis Ruben's Alban, développeur backend et mobile.
+                </p>
+                <a href="mailto:rubensalban@gmail.com" target="_blank"
+                  class="text-white lg:text-4xl sm:text-[28px] text-lg underline">
+                  rubensalban@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="basis-1/2 shrink">
+              <div>
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <a href="https://linkedin.com/in/rubens-alban-mouko-942845131" target="_blank"
+                      class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group">
+                      LinkedIn
+                      <i class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://github.com/Rubensalban" target="_blank"
+                      class="lg:py-[26px] py-[14px] lg:px-7 px-6 rounded-[10px] border border-clr_cusborder flex items-center justify-between text-white lg:text-2xl text-xl duration-500 hover:bg-clr_base hover:border-clr_base hover:text-clr_title group">
+                      Github
+                      <i class="bi-arrow-right text-white text-[22px] duration-500 group-hover:text-clr_title"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" bg-common_bg bg-no-repeat bg-center bg-cover">
+        <div class="xl:max-w-[1350px] lg:max-w-[960px] md:max-w-2xl sm:max-w-xl xl mx-auto px-3">
+          <div class="flex flex-col lg:flex-row items-center justify-between py-[34px] lg:flex-nowrap gap-4">
+            <p class="text-white text-lg">
+              © <span id="currentYear"></span>
+              Ruben's Alban Mouko. All rights reserved.
+            </p>
+
+            <a href="./index.html#about"
+              class=" w-10 h-[50px] bg-clr_base rounded-[5px] flex justify-center items-center">
+              <i class="bi-arrow-up text-lg"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
